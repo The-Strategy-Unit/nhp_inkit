@@ -1,3 +1,11 @@
+### Local ###
+
+.vscode/
+README.html
+README_files/
+
+### R ###
+
 # History files
 .Rhistory
 .Rapp.history
@@ -74,6 +82,7 @@ ipython_config.py
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
 ### Python ###
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
