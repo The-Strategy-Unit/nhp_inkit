@@ -1,0 +1,6 @@
+^\.github$
+^\.vscode$
+^CODEOWNERS$
+^LICENSE\.md$
+^README\.html$
+^README_files$
