@@ -6,7 +6,8 @@
 isolate_provider_peers <- function(provider, peers) {
   peers |>
     dplyr::filter(
-      .data$procode == .env$provider & .data$peer != .env$provider
+      .data$procode == .env$provider,
+      .data$peer != .env$provider
     ) |>
     dplyr::pull(.data$peer)
 }
